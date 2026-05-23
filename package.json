@@ -1,0 +1,16 @@
+{
+  "name": "darkweb-osint-scraper",
+  "version": "1.0.0",
+  "description": "Advanced Dark Web Search Engine Scraper via Tor Proxy",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "axios": "^1.6.8",
+    "cheerio": "^1.0.0-rc.12",
+    "dotenv": "^16.4.5",
+    "socks-proxy-agent": "^8.0.3"
+  }
+}

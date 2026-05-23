@@ -1,0 +1,57 @@
+{
+  "ahmia": {
+    "name": "Ahmia.fi",
+    "url": "https://ahmia.fi/search/?q=",
+    "isOnion": false,
+    "selectors": {
+      "container": "li.result",
+      "title": "a",
+      "link": "a",
+      "description": "p"
+    }
+  },
+  "darksearchio": {
+    "name": "DarkSearch.io",
+    "url": "http://darksearchio...onion/search?query=",
+    "isOnion": true,
+    "selectors": {
+      "container": ".search-result",
+      "title": "h3 a",
+      "link": "h3 a",
+      "description": ".snippet"
+    }
+  },
+  "onionland": {
+    "name": "OnionLand Search",
+    "url": "http://3bbaqq...onion/search?q=",
+    "isOnion": true,
+    "selectors": {
+      "container": ".result-block",
+      "title": "h4 a",
+      "link": "h4 a",
+      "description": ".result-content"
+    }
+  },
+  "haystack": {
+    "name": "Haystack",
+    "url": "http://haystak...onion/?q=",
+    "isOnion": true,
+    "selectors": {
+      "container": ".result",
+      "title": "a.title",
+      "link": "a.title",
+      "description": ".abstract"
+    }
+  },
+  "tordex": {
+    "name": "TorDex",
+    "url": "http://tordex...onion/search?query=",
+    "isOnion": true,
+    "selectors": {
+      "container": ".buttons-result",
+      "title": "a.result-title",
+      "link": "a.result-title",
+      "description": ".result-text"
+    }
+  }
+}
